@@ -1,0 +1,13 @@
+To compile: 
+
+In this directory, run:
+
+$ g++ -o final src/*.cpp -I /srv/conda/envs/notebook/include -Iinclude -larmadillo
+
+To run:
+
+$ ./final <filename>
+
+I.e. to pass in ./input/HF+.txt, run 
+
+$ ./final ./input/HF+.txt
